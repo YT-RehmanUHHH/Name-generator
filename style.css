@@ -1,0 +1,65 @@
+html {
+  background-color: #12343b;
+}
+
+body {
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #c89666;
+  text-align: center;
+  width: 900px;
+  height: 675px;
+  margin: auto;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  padding-top: 25px;
+}
+
+hr {
+  border-radius: 3px;
+  border-color: coral;
+  margin-top: 40px;
+  width: 500px;
+}
+
+button {
+  padding: 13px 26px;
+  margin: 10px;
+  border: 2px solid coral;
+  background: coral;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background: white;
+  color: coral;
+}
+
+input {
+  padding: 3px 6px;
+  margin: 10px;
+  border: 2px solid coral;
+  background: coral;
+  cursor: text;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+input:hover {
+  background: white;
+  color: coral;
+}
+
+::placeholder {
+  color: rgba(250, 150, 114, 0.856);
+}
